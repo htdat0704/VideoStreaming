@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@bitmovin/api-sdk": "^1.165.0",
+    "@google-cloud/storage": "^6.11.0",
+    "axios": "^1.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase": "^9.22.2",
+    "firebase-admin": "^11.9.0",
+    "firebase-functions": "^4.4.1",
+    "fs": "^0.0.1-security",
+    "multer": "^1.4.5-lts.1",
+    "multer-firebase-storage": "^4.1.2",
+    "nodemon": "^2.0.22"
+  }
+}
