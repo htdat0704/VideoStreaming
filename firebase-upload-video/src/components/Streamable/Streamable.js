@@ -1,14 +1,14 @@
 import React from "react";
 import ReactPlayer from "react-player";
 
-const Wistia = () => {
+const Streamable = () => {
   return (
     <ReactPlayer
-      url="https://vku.wistia.com/medias/gbo168kn1w"
+      url="https://streamable.com/l8z3kn"
       controls="true"
       width="50%"
     />
   );
 };
 
-export default Wistia;
+export default Streamable;
